@@ -3,7 +3,7 @@ var player1, player2, ball;
 var timer, interval = 1000/60;
 var p1Wins = 0, p2Wins = 0;
 var img = new Image();
-img.src = "images/cat.png";
+img.src = "images/Cat.png";
 
 img.onload = function () {
     timer = setInterval(animate, interval);
