@@ -21,7 +21,6 @@ ball.radius = 25;
 ball.vx = 5;
 ball.vy = 0;
 
-timer = setInterval(animate, interval);
 
 function drawText () 
 {
